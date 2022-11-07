@@ -1,0 +1,198 @@
+@media (max-width: 920px) {
+  .header_nav .nav {
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section .section-imgs {
+    min-width: 58%;
+    background: url("../img/dog-1.png") no-repeat,
+      url("../img/dog-2.png") no-repeat, url("../img/dog-3.png") no-repeat;
+    background-position: 0 0, 170px 124px, 42px 296px;
+    background-size: 60%;
+    margin-right: 0;
+  }
+
+  .sction-title {
+    font-size: 55px;
+  }
+
+  .volunteer-info {
+    margin-right: 15px;
+  }
+  .volunteer-img {
+    min-width: 55%;
+    background: url("../img/dog-4.png") no-repeat,
+      url("../img/dog-5.png") no-repeat, url("../img/dog-6.png") no-repeat;
+    background-position: 30px 170px, 170px 0, 200px 295px;
+    background-size: 58%;
+  }
+  .volunteer {
+    display: flex;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .btn {
+    margin-right: 60px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .nav.open .nav-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    padding: 30px 20px;
+    flex-direction: column;
+    row-gap: 30px;
+    font-size: 20px;
+
+    background-color: rgb(224, 224, 224);
+    z-index: 1;
+  }
+  .nav-button {
+    position: fixed;
+    z-index: 2;
+    right: 20px;
+    top: 20px;
+  }
+  .section {
+    display: block;
+    align-items: center;
+  }
+  .volunteer {
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  .section .section-imgs {
+    max-width: 70%;
+    background: url("../img/dog-1.png") no-repeat,
+      url("../img/dog-2.png") no-repeat, url("../img/dog-3.png") no-repeat;
+    background-position: 0 0, 180px 150px, 20px 300px;
+    background-size: 50%;
+    margin-right: 0;
+    margin-left: 120px;
+  }
+
+  .volunteer-img {
+    max-width: 70%;
+    background: url("../img/dog-4.png") no-repeat,
+      url("../img/dog-5.png") no-repeat, url("../img/dog-6.png") no-repeat;
+    background-position: 50px 100px, 200px 0px, 180px 290px;
+    background-size: 50%;
+    margin-left: 120px;
+  }
+  .volunteer-title {
+    font-size: 35px;
+  }
+  .non-profit-title {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 611px) {
+  .container {
+    max-width: 100%;
+  }
+  .section .section-imgs {
+    max-width: 100%;
+    background: url("../img/dog-1.png") no-repeat,
+      url("../img/dog-2.png") no-repeat, url("../img/dog-3.png") no-repeat;
+    background-position: 0 0, 190px 120px, 30px 295px;
+    background-size: 60%;
+    margin-right: 0;
+    margin-left: 0px;
+  }
+
+  .volunteer-img {
+    max-width: 100%;
+    background: url("../img/dog-4.png") no-repeat,
+      url("../img/dog-5.png") no-repeat, url("../img/dog-6.png") no-repeat;
+    background-position: 0px 80px, 190px 20px, 170px 300px;
+    background-size: 60%;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header_nav {
+    margin-bottom: 100px;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .header-contetns {
+    margin-bottom: 200px;
+  }
+
+  .section {
+    display: block;
+  }
+
+  .section-imgs {
+    min-height: 550px;
+  }
+  .sction-title {
+    font-size: 35px;
+  }
+  .volunteer {
+    display: block;
+    margin-bottom: 100px;
+  }
+  .volunteer-title {
+    font-size: 35px;
+  }
+
+  .non-profit-title {
+    font-size: 20px;
+  }
+
+  .section .section-imgs {
+    max-width: 100%;
+    background: url("../img/dog-1.png") no-repeat,
+      url("../img/dog-2.png") no-repeat, url("../img/dog-3.png") no-repeat;
+    background-position: 0 0, 110px 120px, 30px 200px;
+    background-size: 60%;
+    margin-right: 0;
+    margin-left: 0px;
+  }
+
+  .volunteer-img {
+    max-width: 100%;
+    background: url("../img/dog-4.png") no-repeat,
+      url("../img/dog-5.png") no-repeat, url("../img/dog-6.png") no-repeat;
+    background-position: 0px 80px, 130px 20px, 120px 200px;
+    background-size: 60%;
+    margin-left: 0px;
+  }
+
+  .btn-1 {
+    font-size: 14px;
+  }
+  .btn-2 {
+    font-size: 14px;
+  }
+}
